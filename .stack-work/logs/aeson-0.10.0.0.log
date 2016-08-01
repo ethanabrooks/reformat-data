@@ -1,0 +1,92 @@
+Configuring aeson-0.10.0.0...
+Building aeson-0.10.0.0...
+Preprocessing library aeson-0.10.0.0...
+
+Data/Aeson/TH.hs:2:24: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+Data/Aeson/Types/Generic.hs:2:45: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+
+Data/Aeson/Types/Instances.hs:3:5: Warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[ 1 of 16] Compiling Data.Aeson.Functions ( Data/Aeson/Functions.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Functions.o )
+[ 2 of 16] Compiling Data.Aeson.Internal.Time ( Data/Aeson/Internal/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Internal/Time.o )
+[ 3 of 16] Compiling Data.Aeson.Types.Internal ( Data/Aeson/Types/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Internal.o )
+
+Data/Aeson/Types/Internal.hs:62:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+Data/Aeson/Types/Internal.hs:65:1: Warning:
+    The import of ‘Monoid’ from module ‘Data.Monoid’ is redundant
+
+Data/Aeson/Types/Internal.hs:71:1: Warning:
+    The import of ‘Data.Traversable’ is redundant
+      except perhaps to import instances from ‘Data.Traversable’
+    To import instances alone, use: import Data.Traversable()
+[ 4 of 16] Compiling Data.Aeson.Encode.Builder ( Data/Aeson/Encode/Builder.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encode/Builder.o )
+[ 5 of 16] Compiling Data.Aeson.Types.Class ( Data/Aeson/Types/Class.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Class.o )
+[ 6 of 16] Compiling Data.Aeson.Encode.Functions ( Data/Aeson/Encode/Functions.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encode/Functions.o )
+
+Data/Aeson/Encode/Functions.hs:17:1: Warning:
+    The import of ‘Data.Foldable’ is redundant
+      except perhaps to import instances from ‘Data.Foldable’
+    To import instances alone, use: import Data.Foldable()
+
+Data/Aeson/Encode/Functions.hs:18:1: Warning:
+    The import of ‘mempty’ from module ‘Data.Monoid’ is redundant
+[ 7 of 16] Compiling Data.Aeson.Parser.Time ( Data/Aeson/Parser/Time.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser/Time.o )
+
+Data/Aeson/Parser/Time.hs:24:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[ 8 of 16] Compiling Data.Aeson.Types.Instances ( Data/Aeson/Types/Instances.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Instances.o )
+
+Data/Aeson/Types/Instances.hs:58:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+Data/Aeson/Types/Instances.hs:65:1: Warning:
+    The import of ‘Foldable’ from module ‘Data.Foldable’ is redundant
+
+Data/Aeson/Types/Instances.hs:70:1: Warning:
+    The import of ‘mempty’ from module ‘Data.Monoid’ is redundant
+
+Data/Aeson/Types/Instances.hs:77:1: Warning:
+    The import of ‘traverse’
+    from module ‘Data.Traversable’ is redundant
+
+Data/Aeson/Types/Instances.hs:79:1: Warning:
+    The import of ‘Word’ from module ‘Data.Word’ is redundant
+[ 9 of 16] Compiling Data.Aeson.Internal ( Data/Aeson/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Internal.o )
+[10 of 16] Compiling Data.Aeson.Types.Generic ( Data/Aeson/Types/Generic.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types/Generic.o )
+
+Data/Aeson/Types/Generic.hs:22:1: Warning:
+    The import of ‘<*>, pure, <$>’
+    from module ‘Control.Applicative’ is redundant
+
+Data/Aeson/Types/Generic.hs:33:1: Warning:
+    The import of ‘mempty’ from module ‘Data.Monoid’ is redundant
+[11 of 16] Compiling Data.Aeson.Types ( Data/Aeson/Types.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Types.o )
+[12 of 16] Compiling Data.Aeson.Parser.Internal ( Data/Aeson/Parser/Internal.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser/Internal.o )
+
+Data/Aeson/Parser/Internal.hs:34:1: Warning:
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[13 of 16] Compiling Data.Aeson.Parser ( Data/Aeson/Parser.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Parser.o )
+[14 of 16] Compiling Data.Aeson.Encode ( Data/Aeson/Encode.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/Encode.o )
+[15 of 16] Compiling Data.Aeson       ( Data/Aeson.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson.o )
+[16 of 16] Compiling Data.Aeson.TH    ( Data/Aeson/TH.hs, .stack-work/dist/x86_64-osx/Cabal-1.22.5.0/build/Data/Aeson/TH.o )
+
+Data/Aeson/TH.hs:103:1: Warning:
+    The import of ‘fail, return, mapM, liftM2’
+    from module ‘Control.Monad’ is redundant
+In-place registering aeson-0.10.0.0...
+Installing library in
+/Users/Ethan/.stack/snapshots/x86_64-osx/lts-4.0/7.10.3/lib/x86_64-osx-ghc-7.10.3/aeson-0.10.0.0-7i2w7DWZQBX8iDaWDif22r
+Registering aeson-0.10.0.0...
